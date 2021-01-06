@@ -3,6 +3,7 @@ import torch.nn as nn
 from . import base
 from . import functional as F
 from ..base.modules import Activation
+from ..losses import LovaszLoss
 
 
 class JaccardLoss(base.Loss):
